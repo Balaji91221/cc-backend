@@ -89,6 +89,14 @@
             menu: "Groups",
         },
         {
+            title: "Partition",
+            requiredRole: roles.user,
+            href: "/monitoring/partition/",
+            icon: "disc",
+            perCluster: false,
+            menu: "none",
+        },
+        {
             title: "Status",
             requiredRole: roles.admin,
             href: "/monitoring/status/",

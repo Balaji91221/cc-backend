@@ -48,12 +48,12 @@
     <form id="create-user-form" method="post" action="/api/users/" class="card-body" on:submit|preventDefault={handleUserSubmit}>
         <CardTitle class="mb-3">Create User</CardTitle>
         <div class="mb-3">
-            <label for="username" class="form-label">Username (ID)</label>
+            <label for="username" class="form-label">New New Username (ID)</label>
             <input type="text" class="form-control" id="username" name="username" aria-describedby="usernameHelp"/>
             <div id="usernameHelp" class="form-text">Must be unique.</div>
         </div>
         <div class="mb-3">
-            <label for="password" class="form-label">Password</label>
+            <label for="password" class="form-label">New Password</label>
             <input type="password" class="form-control" id="password" name="password" aria-describedby="passwordHelp"/>
             <div id="passwordHelp" class="form-text">Only API users are allowed to have a blank password. Users with a blank password can only authenticate via Tokens.</div>
         </div>

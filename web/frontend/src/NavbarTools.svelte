@@ -25,7 +25,7 @@
                 <InputGroup>
                     <Input
                         type="text"
-                        placeholder="Search 'type:<query>' ..."
+                        placeholder="Search as 'type:<query>' ..."
                         name="searchId"
                         style="margin-left: 10px;"
                     />
@@ -108,7 +108,7 @@
                 <InputGroup>
                     <Input
                         type="text"
-                        placeholder="Search 'type:<query>' ..."
+                        placeholder="Search as 'type:<query>' ..."
                         name="searchId"
                     />
                     <Button outline type="submit"><Icon name="search" /></Button
